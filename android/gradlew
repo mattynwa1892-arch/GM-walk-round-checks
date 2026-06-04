@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+
+# Gradle wrapper script for Unix systems
+# This will download and run Gradle automatically
+
+if [ ! -f gradle/wrapper/gradle-wrapper.jar ]; then
+  echo "Gradle wrapper not found. Please run: ./gradlew wrapper"
+  exit 1
+fi
+
+exec sh -c 'exec "$JAVA_HOME/bin/java" -Dorg.gradle.appname=gradlew -Dfile.encoding=UTF-8 -classpath "$CLASSPATH" org.gradle.wrapper.GradleWrapperMain "$@"' gradlew "$@"
