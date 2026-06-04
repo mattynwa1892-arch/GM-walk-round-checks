@@ -31,14 +31,9 @@
             android:exported="false" />
 
         <activity
-            android:name=".ui.CameraActivity"
-            android:exported="false" />
-
-        <activity
             android:name=".ui.DashboardActivity"
             android:exported="false" />
 
-        <!-- Firebase Cloud Messaging Service -->
         <service
             android:name=".services.MyFirebaseMessagingService"
             android:exported="false">
