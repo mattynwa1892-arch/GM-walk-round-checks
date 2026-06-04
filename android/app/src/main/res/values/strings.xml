@@ -1,11 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">GM Walk-Around</string>
-    <string name="new_inspection">New Inspection</string>
-    <string name="dashboard">Dashboard</string>
-    <string name="sync_data">Sync Data</string>
-    <string name="save">Save</string>
-    <string name="back">Back</string>
-    <string name="title">Title</string>
-    <string name="description">Description</string>
 </resources>
